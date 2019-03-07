@@ -1,5 +1,5 @@
 # ES6-Introduction
-- [let & const](https://github.com/Robyrogers/ES6-Introduction#let--const)
+- [let & const](#let--const)
 
 
 ## Requirements
