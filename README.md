@@ -50,8 +50,6 @@ function test(){
 }
 
 test()
-
-
 /*
 Output:
 This is i variable
@@ -60,4 +58,4 @@ This is the k variable
 I changed the j variable
 */
 ```
-*```let``` & ```const``` doesn't support hoisitng. ```let``` varibale can be reassigned where as ```const``` cannot be. It is however possible to mutate the properties of the ```const``` variable.*
+*```let``` & ```const``` doesn't support hoisitng. ```let``` variable can be reassigned where as ```const``` cannot be. It is however possible to mutate the properties of the ```const``` variable.*
