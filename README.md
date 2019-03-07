@@ -84,16 +84,19 @@ const fName = "Ryad"
 const lName = "Ahmed"
 const bYear = 1996
 const cYear = 2019
+const age = cYear - bYear
 
 console.log(`Hello ${fName} ${lName}
-${fName} is ${cYear-bYear} years old`)
+${fName} is ${cYear-bYear} years old ${ age<=30 ? 'young man':'old man' }`)
 /*
 Output:
 Hello Ryad Ahmed
 Ryad is 23 years old
 */
 ```
+
 ## Destructuring
+
 **Before ES6**
 ```js
 var fullName = ["John", "Smith"];
@@ -137,5 +140,65 @@ console.log(first, last);
 /*
 Output:
 John Smith
+*/
+```
+
+## Spread Operator
+*It allows us to spread the contents of a literal.*
+
+```js
+const person = {
+    fName: "Ryad",
+    lName: "Ahmed",
+    age: 23,
+    status: {
+        gender: "man",
+        marital: "single"
+    }
+}
+
+const newPerson = {
+    ...person
+}
+
+console.log(person == newPerson)
+
+newPerson.fName = "Omer"
+newPerson.lName = "Sayeem"
+
+console.log(person)
+console.log(newPerson)
+
+const people = [{...person},{...newPerson}]
+
+console.log(people)
+
+const numbers = [1,2,3]
+
+const moreNumbers = [...numbers,4,5,6]
+
+console.log(numbers)
+console.log(moreNumbers)
+
+/*
+false
+{ fName: 'Ryad',
+  lName: 'Ahmed',
+  age: 23,
+  status: { gender: 'man', marital: 'single' } }
+{ fName: 'Omer',
+  lName: 'Sayeem',
+  age: 23,
+  status: { gender: 'man', marital: 'single' } }
+[ { fName: 'Ryad',
+    lName: 'Ahmed',
+    age: 23,
+    status: { gender: 'man', marital: 'single' } },
+  { fName: 'Omer',
+    lName: 'Sayeem',
+    age: 23,
+    status: { gender: 'man', marital: 'single' } } ]
+[ 1, 2, 3 ]
+[ 1, 2, 3, 4, 5, 6 ]
 */
 ```
