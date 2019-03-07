@@ -1,5 +1,9 @@
 # ES6-Introduction
 - [let & const](#let--const)
+- [Template Literals](#template-literals)
+- [Destructuring](#destructuring)
+- [Spread Operator](#spread-operator)
+
 
 
 ## Requirements
