@@ -62,7 +62,7 @@ I changed the j variable
 *```let``` & ```const``` doesn't support hoisitng. ```let``` variable can be reassigned where as ```const``` cannot be. It is however possible to mutate the properties of the ```const``` variable.*
 
 
-##Template Literals
+## Template Literals
 *Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ` ` ) or backticks*
 
 **Before ES6**
