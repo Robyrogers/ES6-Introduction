@@ -7,6 +7,7 @@
 - [Default Parameters](#default-parameters)
 - [for...of loop](#forof-loop)
 - [Classes](#classes)
+- [Arrow Functions](#arrow-functions)
 
 
 
