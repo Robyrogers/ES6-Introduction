@@ -103,7 +103,40 @@ Ryad is 23 years old
 [Top](#es6-introduction)
 
 ## Tagged Templates
-*Template Literals also enables us to create functions which takes Template Literals as arguements in the form of ``` fn\`.....\` ``` . This allows some very innovative functions*
+*A sort of function that takes [Template Literals](#template-literals) as an arguement*
+
+```js
+const person = 'Mike';
+const age = 28;
+
+function myTag(strings, personExp, ageExp) {
+
+//The first parameter always holds the string portion of the passed template literal arguement in an array of strings
+//Every time there is a ${} inside the template literal the string is divided into different indexes of an array
+//All the ${} are passed down as arguements for the parameters in the same order as they are present inside the template
+
+  const str0 = strings[0] // "That "
+  const str1 = strings[1] // " is a "
+
+  // There is technically a string after
+  // the final expression (in our example),
+  // but it is empty (""), so disregard.
+  // var str2 = strings[2]
+
+  let ageStr
+  if (ageExp > 99){
+    ageStr = 'centenarian'
+  } else {
+    ageStr = 'youngster'
+  }
+  console.log(`${str0}${personExp}${str1}${ageStr}`)
+}
+
+var output = myTag`That ${ person } is a ${ age }`;
+
+console.log(output);
+// That Mike is a youngster
+```
 
 ## Destructuring
 
