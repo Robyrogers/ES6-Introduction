@@ -103,7 +103,7 @@ Ryad is 23 years old
 [Top](#es6-introduction)
 
 ## Tagged Templates
-*Template Literals also enables us to create functions which takes Template Literals as arguements in the form of function\`.....\`. This allows some very innovative functions*
+*Template Literals also enables us to create functions which takes Template Literals as arguements in the form of ``` fn\`.....\` ``` . This allows some very innovative functions*
 
 ## Destructuring
 
