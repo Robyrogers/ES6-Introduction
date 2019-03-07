@@ -36,7 +36,7 @@ This is variable j
 *```var``` supports hoisitng, i.e. moving all declarations to the begining of the code.*
 
 **After ES6**
-```
+```js
 const i = "This is i variable"
 console.log(i)
 let j = "This is variable j"
@@ -66,7 +66,7 @@ I changed the j variable
 *Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ` ` ) or backticks*
 
 **Before ES6**
-```
+```js
 var fName = "Ryad"
 var lName = "Ahmed"
 console.log("Hello " + fName + " " +lName)
@@ -79,7 +79,7 @@ Ryad is 23 years old
 */
 ```
 **After ES6**
-```
+```js
 const fName = "Ryad"
 const lName = "Ahmed"
 const bYear = 1996
