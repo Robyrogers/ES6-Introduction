@@ -333,7 +333,7 @@ var diff = function(a,b){
 }
 
 //arrow functions
-const sum = (a,b) => a+b
+const sum = (a,b) => a+b //arrow functions have implicit returns
 const minus = (a,b) => a-b
 
 console.log(add(2,5))
@@ -346,6 +346,30 @@ console.log(minus(5,3))
 ```
 
 *A good place to use a arrow function are cases where we have a callback and don't want to explicitly declare a function, such as `setInterval()`*
+
+```js
+/*
+Arrow functions normally have implicit returns and one expression long
+For multiple expressions we can {} to create a block of code and then we will have to do
+explicit return
+*/
+//When we have one parameter we don't need to use ()
+let id
+let time 
+id = setInterval(
+    () => {
+        const val = Math.floor(Math.random()*10+1)
+        
+        if(id!=undefined){
+            if(val==10){
+                clearInterval(id)
+            }
+        }
+        console.log(`This is the counter ${val}`)
+    },
+    500
+)
+```
 
 [Advanced Syntax and Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
