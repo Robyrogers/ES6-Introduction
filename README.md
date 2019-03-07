@@ -1,6 +1,7 @@
 # ES6-Introduction
 - [let & const](#let--const)
 - [Template Literals](#template-literals)
+- [Tagged Templates](#tagged-templates)
 - [Destructuring](#destructuring)
 - [Spread Operator](#spread-operator)
 
