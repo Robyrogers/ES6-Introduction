@@ -1,4 +1,6 @@
 # ES6-Introduction
+- [let & const](https://github.com/Robyrogers/ES6-Introduction#let--const)
+
 
 ## Requirements
 - node.js
@@ -33,7 +35,7 @@ This is variable j
 */
 
 ```
-*```var``` supports hoisitng, i.e. moving all declarations to the begining of the code.*
+*`var` supports hoisitng, i.e. moving all declarations to the begining of the code.*
 
 **After ES6**
 ```js
@@ -59,11 +61,11 @@ This is the k variable
 I changed the j variable
 */
 ```
-*```let``` & ```const``` doesn't support hoisitng. ```let``` variable can be reassigned where as ```const``` cannot be. It is however possible to mutate the properties of the ```const``` variable.*
+*`let` & `const` doesn't support hoisitng. `let` variable can be reassigned where as `const` cannot be. It is however possible to mutate the properties of the `const` variable.*
 
 
 ## Template Literals
-*Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ``` ` ` ``` ) or backticks*
+*Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( \` \` ) or backticks*
 
 **Before ES6**
 ```js
