@@ -6,6 +6,7 @@
 - [Spread Operator](#spread-operator)
 - [Default Parameters](#default-parameters)
 - [for...of loop](#forof-loop)
+- [Classes](#classes)
 
 
 
