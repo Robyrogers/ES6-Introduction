@@ -5,7 +5,7 @@
 - npm
 - any preferred IDE (VS Code Recommended)
 
-###### let & const
+## let & const
 
 **Before ES6**
 ```
