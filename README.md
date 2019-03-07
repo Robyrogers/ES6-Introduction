@@ -6,8 +6,9 @@
 - [Spread Operator](#spread-operator)
 - [Default Parameters](#default-parameters)
 - [for...of loop](#forof-loop)
-- [Classes](#classes)
 - [Arrow Functions](#arrow-functions)
+- [Classes](#classes)
+
 
 
 
@@ -451,3 +452,8 @@ console.log(person1 instanceof animal)
 - [Classes](https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677)*
 
 [Top](#es6-introduction)
+
+
+## Other things to study:
+- [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Promises](https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1)
