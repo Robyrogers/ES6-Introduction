@@ -175,6 +175,8 @@ Output:
 John Smith
 */
 ```
+[Top](#es6-introduction)
+
 ###### In case of objects:
 *NOTE: Make sure the properties for the objects exist otherwise it wouldn't work*
 ```js
@@ -256,3 +258,35 @@ console.log(moreNumbers)
 */
 ```
 [Top](#es6-introduction)
+
+## Default Parameters
+*ES6 allows us to have  default parameters for functions*
+
+**Before ES6**
+```js
+function sum(a,b){
+    if(a==undefined){
+        a = 0
+    }
+    if(b==undefined){
+        b = 0
+    }
+    
+    return a+b  
+}
+
+console.log(sum())   //0
+console.log(sum(2))  //2
+console.log(2,5)     //7
+```
+**After ES6**
+```js
+function sum(a=0,b=0){
+    return a+b  
+}
+
+console.log(sum())   //0
+console.log(sum(2))  //2
+console.log(2,5)     //7
+```
+
