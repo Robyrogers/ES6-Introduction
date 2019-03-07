@@ -291,3 +291,28 @@ console.log(sum(2))  //2
 console.log(2,5)     //7
 ```
 [Top](#es6-introduction)
+
+## for...of loop
+*An easy way of iterating through iterables such as arrays*
+
+```js
+const nums = [1,2,3,4,9,8,7,6,5]
+for(let i of nums){
+    console.log(i)
+}
+/*
+Output:
+1
+2
+3
+4
+9
+8
+7
+6
+5
+*/
+```
+
+[Top](#es6-introduction)
+
