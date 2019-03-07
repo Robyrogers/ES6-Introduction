@@ -132,10 +132,11 @@ function myTag(strings, personExp, ageExp) {
   console.log(`${str0}${personExp}${str1}${ageStr}`)
 }
 
-var output = myTag`That ${ person } is a ${ age }`;
+myTag`That ${ person } is a ${ age }`
 
-console.log(output);
-// That Mike is a youngster
+/*
+That Mike is a youngster
+*/
 ```
 
 ## Destructuring
