@@ -93,3 +93,49 @@ Hello Ryad Ahmed
 Ryad is 23 years old
 */
 ```
+## Destructuring
+**Before ES6**
+```js
+var fullName = ["John", "Smith"];
+var firstName = fullName[0];
+var lastName = fullName[1];
+
+console.log(firstName, lastName);
+/*
+Output:
+John Smith
+*/ 
+```
+###### In case of objects:
+```js
+const fullName = { first: "John", last: "Smith"};
+
+console.log(fullName.first, fullName.last);
+
+Output:
+John Smith
+*/
+```
+**After ES6**
+```js
+const fullName = ["John", "Smith"];
+const [firstName, lastName] = fullName;
+
+console.log(firstName, lastName);
+/*
+Output:
+John Smith
+*/
+```
+###### In case of objects:
+*NOTE: Make sure the properties for the objects exist otherwise it wouldn't work*
+```js
+const fullName = { first: "John", last: "Smith"};
+const {first, last} = fullName;
+
+console.log(first, last);
+/*
+Output:
+John Smith
+*/
+```
