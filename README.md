@@ -1,2 +1,6 @@
 # ES6-Introduction
-Introduction to ES6
+
+##Requirements
+- node.js
+- npm
+- any preferred IDE (VS Code Recommended)
