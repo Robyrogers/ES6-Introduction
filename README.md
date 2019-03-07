@@ -66,7 +66,7 @@ I changed the j variable
 */
 ```
 *`let` & `const` doesn't support hoisitng. `let` variable can be reassigned where as `const` cannot be. It is however possible to mutate the properties of the `const` variable.*
-
+[Top](#es6-introduction)
 
 ## Template Literals
 *Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( \` \` ) or backticks*
@@ -100,6 +100,7 @@ Hello Ryad Ahmed
 Ryad is 23 years old
 */
 ```
+[Top](#es6-introduction)
 
 ## Destructuring
 
@@ -148,6 +149,7 @@ Output:
 John Smith
 */
 ```
+[Top](#es6-introduction)
 
 ## Spread Operator
 *It allows us to spread the contents of a literal.*
@@ -215,3 +217,4 @@ console.log(moreNumbers)
 [ 1, 2, 3, 4, 5, 6 ]
 */
 ```
+[Top](#es6-introduction)
