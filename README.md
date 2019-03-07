@@ -5,6 +5,7 @@
 - [Destructuring](#destructuring)
 - [Spread Operator](#spread-operator)
 - [Default Parameters](#default-parameters)
+- [for...of loop](#forof-loop)
 
 
 
