@@ -63,7 +63,7 @@ I changed the j variable
 
 
 ## Template Literals
-*Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ` ` ) or backticks*
+*Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ``` ` ` ``` ) or backticks*
 
 **Before ES6**
 ```js
