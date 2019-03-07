@@ -318,6 +318,39 @@ Output:
 
 [Top](#es6-introduction)
 
+## Arrow Functions
+*Arrow functions allow us to create functions on the go without any declaration. It has limited functionality compared to regualar function expressions but can be handy when we dont need those functionalities.*
+
+```js
+//regular function
+function add(a,b){
+    return a+b
+}
+
+//or
+var diff = function(a,b){
+    return a-b
+}
+
+//arrow functions
+const sum = (a,b) => a+b
+const minus = (a,b) => a-b
+
+console.log(add(2,5))
+console.log(sum(2,5))
+//Both results same
+
+console.log(diff(5,3))
+console.log(minus(5,3))
+//Both results same
+```
+
+*A good place to use a arrow function are cases where we have a callback and don't want to explicitly declare a function, such as `setInterval()`*
+
+[Advanced Syntax and Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+[Top](#es6-introduction)
+
 ## Classes
 *ES6 finally introduces classes to JavaScript that can be used to create objects and also maintain inheritance*
 
