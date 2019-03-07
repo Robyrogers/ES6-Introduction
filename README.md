@@ -194,7 +194,7 @@ John Smith
 [Top](#es6-introduction)
 
 ## Spread Operator
-*It allows us to spread the contents of a literal.*
+*It allows us to spread the contents of array and object literal.*
 
 ```js
 const person = {
@@ -317,3 +317,76 @@ Output:
 
 [Top](#es6-introduction)
 
+## Classes
+*ES6 finally introduces classes to JavaScript that can be used to create objects and also maintain inheritance*
+
+```js
+
+class animal{
+    constructor(type){
+        this._type = type
+    }
+    what(){
+        console.log("I am an animal")
+    }
+}
+
+const creation = new animal("human")
+
+console.log(creation._type)
+//human
+console.log(typeof creation)
+//object
+creation.what()
+//I am an animal
+
+class human extends animal{
+    constructor(type,name,sex,age){
+        super(type)
+        this._name = name
+        this._sex = sex
+        this._age = age
+        this.arms = 2
+        this.legs = 2
+    }
+
+    what(){
+        super.what()
+        console.log("I am also a human")
+    }
+}
+
+const person1 = new human("human","Ryad","Male",23)
+const person2 = new human("human","Iftekar","Male",25)
+
+person1.what()
+//I am an animal
+//I am also a human
+console.log(person1)
+/*
+human {
+  _type: 'human',
+  _name: 'Ryad',
+  _sex: 'Male',
+  _age: 23,
+  arms: 2,
+  legs: 2 }
+*/ 
+console.log(person2)
+/*
+human {
+  _type: 'human',
+  _name: 'Iftekar',
+  _sex: 'Male',
+  _age: 25,
+  arms: 2,
+  legs: 2 }
+*/ 
+console.log(person1 instanceof human)
+//true
+console.log(person1 instanceof animal)
+//true
+```
+*For more info check the docs*
+
+[Top](#es6-introduction)
