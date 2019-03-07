@@ -45,6 +45,7 @@ console.log(j)
 function test(){
     const k = "This is the k variable"
     j = "I changed the j variable"
+    // k = "Does this work" (This will cause error)
     console.log(k)
     console.log(j)
 }
