@@ -60,3 +60,36 @@ I changed the j variable
 */
 ```
 *```let``` & ```const``` doesn't support hoisitng. ```let``` variable can be reassigned where as ```const``` cannot be. It is however possible to mutate the properties of the ```const``` variable.*
+
+
+##Template Literals
+*Template literals are string literals which allow embedded expressions and multiline strings. Intead of ( ' ' ) or ( " " ) template literals use ( ` ` ) or backticks*
+
+**Before ES6**
+```
+var fName = "Ryad"
+var lName = "Ahmed"
+console.log("Hello " + fName + " " +lName)
+var age = 23
+console.log(fName + " is " + age + " years old")
+/*
+Output:
+Hello Ryad Ahmed
+Ryad is 23 years old
+*/
+```
+**After ES6**
+```
+const fName = "Ryad"
+const lName = "Ahmed"
+const bYear = 1996
+const cYear = 2019
+
+console.log(`Hello ${fName} ${lName}
+${fName} is ${cYear-bYear} years old`)
+/*
+Output:
+Hello Ryad Ahmed
+Ryad is 23 years old
+*/
+```
