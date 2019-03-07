@@ -388,7 +388,8 @@ console.log(person1 instanceof human)
 console.log(person1 instanceof animal)
 //true
 ```
-*For more info check the docs*
-*[Prototyping](https://tylermcginnis.com/beginners-guide-to-javascript-prototype/)  [Classes](https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677)*
+*For more info check the docs:*
+- [Prototyping](https://tylermcginnis.com/beginners-guide-to-javascript-prototype/)  
+- [Classes](https://medium.com/tech-tajawal/javascript-classes-under-the-hood-6b26d2667677)*
 
 [Top](#es6-introduction)
