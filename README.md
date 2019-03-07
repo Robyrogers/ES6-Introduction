@@ -8,7 +8,7 @@
 ## let & const
 
 **Before ES6**
-```
+```js
 i = "This is i variable"
 console.log(i)
 j = "This is variable j"
