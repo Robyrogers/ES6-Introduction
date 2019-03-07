@@ -161,35 +161,31 @@ const newPerson = {
     ...person
 }
 
-console.log(person == newPerson)
+console.log(person == newPerson)//false
 
 newPerson.fName = "Omer"
 newPerson.lName = "Sayeem"
 
 console.log(person)
-console.log(newPerson)
-
-const people = [{...person},{...newPerson}]
-
-console.log(people)
-
-const numbers = [1,2,3]
-
-const moreNumbers = [...numbers,4,5,6]
-
-console.log(numbers)
-console.log(moreNumbers)
-
 /*
-false
 { fName: 'Ryad',
   lName: 'Ahmed',
   age: 23,
   status: { gender: 'man', marital: 'single' } }
+*/
+
+console.log(newPerson)
+/*
 { fName: 'Omer',
   lName: 'Sayeem',
   age: 23,
   status: { gender: 'man', marital: 'single' } }
+*/
+
+const people = [{...person},{...newPerson}]
+
+console.log(people)
+/*
 [ { fName: 'Ryad',
     lName: 'Ahmed',
     age: 23,
@@ -198,7 +194,18 @@ false
     lName: 'Sayeem',
     age: 23,
     status: { gender: 'man', marital: 'single' } } ]
+*/
+
+const numbers = [1,2,3]
+
+const moreNumbers = [...numbers,4,5,6]
+
+console.log(numbers)
+/*
 [ 1, 2, 3 ]
+*/
+console.log(moreNumbers)
+/*
 [ 1, 2, 3, 4, 5, 6 ]
 */
 ```
