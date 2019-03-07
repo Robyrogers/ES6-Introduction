@@ -4,6 +4,7 @@
 - [Tagged Templates](#tagged-templates)
 - [Destructuring](#destructuring)
 - [Spread Operator](#spread-operator)
+- [Default Parameters](#default-parameters)
 
 
 
@@ -289,4 +290,4 @@ console.log(sum())   //0
 console.log(sum(2))  //2
 console.log(2,5)     //7
 ```
-
+[Top](#es6-introduction)
